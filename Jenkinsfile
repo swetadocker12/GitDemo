@@ -23,6 +23,11 @@ pipeline {
 	 }
 
 	}
-
+	
+	post {
+		always {
+			echo 'Post logic ecexuted....'
+		}
+	}
        }
 
